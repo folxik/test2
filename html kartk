@@ -1,0 +1,73 @@
+<ul type="rodzaj">
+<li>Punkt pierwszy</li>
+<li>Punkt drugi</li>
+<li>Punkt trzeci</li>
+</ul>
+
+gdzie jako "rodzaj" należy podać:
+"disc" - (domyślny) - koło (zamalowane)
+"circle" - okrąg (w srodku pusty kek)
+"square" - wypełniony kwadrat 
+
+Wykaz numerowany (podstawowy) - lista uporządkowana
+
+<ol>
+<li>Punkt pierwszy</li>
+<li>Punkt drugi</li>
+<li>Punkt trzeci</li>
+</ol>
+
+Wykaz numerowany - różne typy
+
+<ol type="rodzaj numeracji">
+<li>Punkt pierwszy</li>
+<li>Punkt drugi</li>
+<li>Punkt trzeci</li>
+</ol>
+
+gdzie jako "rodzaj numeracji" należy podać:
+"1" (domyślny) - numeracja według liczb arabskich
+"I" - według dużych liczb rzymskich
+"i" - według małych liczb rzymskich
+"a" - według małych liter
+"A" - według dużych liter
+
+<ol type="1"> (domyślny)
+
+Punkt pierwszy
+Punkt drugi
+Punkt trzeci
+<ol type="I">
+
+Punkt pierwszy
+Punkt drugi
+Punkt trzeci
+<ol type="i">
+
+Punkt pierwszy
+Punkt drugi
+Punkt trzeci
+<ol type="A">
+
+Punkt pierwszy
+Punkt drugi
+Punkt trzeci
+<ol type="a">
+
+Punkt pierwszy
+Punkt drugi
+Punkt trzeci
+Wykaz numerowany z podaniem początkowego numeru
+<ol start="n">
+<li>Punkt pierwszy</li>
+<li>Punkt drugi</li>
+<li>Punkt trzeci</li>
+</ol>
+gdzie jako "n" należy podać liczbę, od której ma się rozpocząć numerowanie.
+
+
+Wartość atrybutu START zawsze musi być liczbą, nawet jeśli numerowanie następuje według liter!
+
+
+
+
